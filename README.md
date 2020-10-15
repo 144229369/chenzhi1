@@ -17,6 +17,7 @@
 '''sh
 sudo apt install zip
 '''
+sudo cp .deno/bin/deno /usr/bin
 
 ##DataBase
 

@@ -15,7 +15,7 @@
 -响应浏览器HTTP请求
 
 '''sh
-sudo api install zip
+sudo apt install zip
 '''
 
 ##DataBase

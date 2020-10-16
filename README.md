@@ -25,6 +25,15 @@ sudo cp .deno/bin/deno /usr/bin
 deno --version
 
 '''
+##启动服务
+'''
+deno run --allow-read --allow-net mod.js
+'''
 ##DataBase
 
 >持久化数据，保存Brower浏览器端用户需要的数据
+
+- client html页面，用户点击，发起HTTP请求
+- server层 api：相应client端用户HTTP请求（通过dano 三方库 实现mysql使用）
+- Linux系统：'install mysql' 服务
+- 数据库：创建用户，创建表。插入数据
